@@ -1,0 +1,12 @@
+rtGetNaN.o: \
+ C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rtGetNaN.c \
+ C:/ProgramData/MATLAB/SupportPackages/R2023b_1/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/mbed_config.h \
+ C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rtwtypes.h \
+ C:/Program\ Files/MATLAB/R2023b/extern/include/tmwtypes.h \
+ C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rtGetNaN.h \
+ C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rt_nonfinite.h
+C:/ProgramData/MATLAB/SupportPackages/R2023b_1/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F401RE/mbed_config.h:
+C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rtwtypes.h:
+C:/Program\ Files/MATLAB/R2023b/extern/include/tmwtypes.h:
+C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rtGetNaN.h:
+C:/EmbeddedDigitalControllersEsercitazioni/Progetto/riduzione_stato_ert_rtw/rt_nonfinite.h:
