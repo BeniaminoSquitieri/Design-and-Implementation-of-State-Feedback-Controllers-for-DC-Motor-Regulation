@@ -39,22 +39,11 @@ This project focuses on the design and implementation of state-feedback controll
 - **Position Control**: Position control results were similarly successful, with both methods showing good performance in terms of settling time and steady-state accuracy.
 - **Real-World Testing**: The real-world implementations confirmed that the controllers worked well, although slight oscillations were observed due to high gain values. Anti-windup techniques helped reduce these effects in boundary conditions.
 
-## Possible Improvements
-
-The following improvements were identified for future work:
-- **Fine-Tuning Gains**: Both the \( K \) and \( K_i \) gains of the LQR and Pole Placement controllers could be adjusted to further reduce oscillations.
-- **StateFlow Enhancements**: Incorporating additional logic in StateFlow to allow smooth transitions between speed and position controllers.
-- **Improved Anti-Windup**: The anti-windup strategy, particularly the integral subtraction method, could be improved by fine-tuning the \( K_{aw} \) parameter to prevent oscillations near saturation limits.
-
 ## Tools Used
 
 - **MATLAB/Simulink**: For system modeling, controller design, and simulation.
 - **StateFlow**: For designing control logic and handling multiple controller transitions.
 - **Direct C Code**: Implemented to manually control the motor's position and velocity outside of the simulation environment.
-
-## Conclusion
-
-This project demonstrates the application of digital control methods for regulating the speed and position of a DC motor. Both LQR and Pole Placement controllers were successfully designed, simulated, and implemented, with additional real-world considerations like anti-windup and bumpless transfer taken into account.
 
 ---
 
