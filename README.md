@@ -1,4 +1,4 @@
-# Embedded Digital Controllers Project
+# Design and Implementation of State-Feedback Controllers for DC Motor Regulation
 
 ## Project Overview
 
